@@ -14,6 +14,10 @@
 		0BF071502B028B8E00839468 /* PetShelterFinderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF0714F2B028B8E00839468 /* PetShelterFinderAppTests.swift */; };
 		0BF0715A2B028B8E00839468 /* PetShelterFinderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF071592B028B8E00839468 /* PetShelterFinderAppUITests.swift */; };
 		0BF0715C2B028B8E00839468 /* PetShelterFinderAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF0715B2B028B8E00839468 /* PetShelterFinderAppUITestsLaunchTests.swift */; };
+		0BF071692B028BE800839468 /* ShelterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF071682B028BE800839468 /* ShelterModels.swift */; };
+		0BF0716B2B028BFD00839468 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF0716A2B028BFD00839468 /* AnimalModel.swift */; };
+		0BF0716F2B028C3400839468 /* ShelterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF0716E2B028C3400839468 /* ShelterViewModel.swift */; };
+		0BF071712B028C4600839468 /* ShelterSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF071702B028C4600839468 /* ShelterSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		0BF071552B028B8E00839468 /* PetShelterFinderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetShelterFinderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF071592B028B8E00839468 /* PetShelterFinderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShelterFinderAppUITests.swift; sourceTree = "<group>"; };
 		0BF0715B2B028B8E00839468 /* PetShelterFinderAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShelterFinderAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0BF071682B028BE800839468 /* ShelterModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterModels.swift; sourceTree = "<group>"; };
+		0BF0716A2B028BFD00839468 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		0BF0716E2B028C3400839468 /* ShelterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterViewModel.swift; sourceTree = "<group>"; };
+		0BF071702B028C4600839468 /* ShelterSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				0BF0713E2B028B8D00839468 /* PetShelterFinderAppApp.swift */,
 				0BF071402B028B8D00839468 /* ContentView.swift */,
+				0BF071682B028BE800839468 /* ShelterModels.swift */,
+				0BF0716A2B028BFD00839468 /* AnimalModel.swift */,
+				0BF0716E2B028C3400839468 /* ShelterViewModel.swift */,
+				0BF071702B028C4600839468 /* ShelterSearchView.swift */,
 				0BF071422B028B8E00839468 /* Assets.xcassets */,
 				0BF071442B028B8E00839468 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF071692B028BE800839468 /* ShelterModels.swift in Sources */,
+				0BF0716F2B028C3400839468 /* ShelterViewModel.swift in Sources */,
+				0BF071712B028C4600839468 /* ShelterSearchView.swift in Sources */,
 				0BF071412B028B8D00839468 /* ContentView.swift in Sources */,
 				0BF0713F2B028B8D00839468 /* PetShelterFinderAppApp.swift in Sources */,
+				0BF0716B2B028BFD00839468 /* AnimalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
